@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "repository": "git@yota-hada-GitHub:yota-hada/frontend-course-02.git",
   "author": "yota-hada <hadayota33@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn live-server src --port=8082",
+    "setup": "yarn --frozen-lockfile"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
 }
