@@ -1,0 +1,44 @@
+/* 使えそうな色 */
+/* https://colorhunt.co/palette/273174 */
+/* #325288 */
+/* #f4eee8 */
+/* #f5cebe */
+/* #114e60 */
+/* #8ab6d6 */
+/* #2978b5 */
+/* #0061a8 */
+
+.container {
+  padding: 20px;
+}
+
+.wrap {
+}
+
+.left {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid #8ab6d6;
+  border-radius: 5px;
+}
+
+.title {
+  color: #325288;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.row {
+}
+
+.row-left {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.right {
+  width: 100%;
+  background-color: #2978b5;
+  border-radius: 5px;
+}
