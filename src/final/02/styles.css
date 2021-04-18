@@ -9,26 +9,44 @@
 /* #0061a8 */
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
-  height: 100vh;
 }
 
 .wrap {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  width: 340px;
-  padding: 20px;
-  background-color: #8ab6d6;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid #8ab6d6;
   border-radius: 5px;
 }
 
-.box {
+.title {
+  color: #325288;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.row-left {
+  display: flex;
+  justify-content: flex-end;
   width: 100px;
-  height: 100px;
+  margin-right: 10px;
+}
+
+.right {
+  width: 100%;
   background-color: #2978b5;
   border-radius: 5px;
 }
