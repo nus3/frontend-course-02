@@ -1,0 +1,95 @@
+/* 使えそうな色 */
+/* https://colorhunt.co/palette/273174 */
+/* #325288 */
+/* #f4eee8 */
+/* #f5cebe */
+/* #114e60 */
+/* #8ab6d6 */
+/* #2978b5 */
+/* #0061a8 */
+
+.container {
+  padding: 50px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #8ab6d6;
+  background-color: #0061a8;
+  border-radius: 5px;
+  /* 追加 */
+  position: absolute;
+}
+
+.box01 {
+  /* 追加 */
+  z-index: -1;
+}
+
+.box02 {
+  /* 追加 */
+  z-index: -2;
+  top: 20px;
+  left: 20px;
+}
+
+.box03 {
+  /* 追加 */
+  z-index: -3;
+  top: 40px;
+  left: 40px;
+}
+
+.box04 {
+  /* 追加 */
+  z-index: -4;
+  top: 60px;
+  left: 60px;
+}
+
+.box05 {
+  /* 追加 */
+  z-index: -5;
+  top: 80px;
+  left: 80px;
+}
+
+.box06 {
+  /* 追加 */
+  z-index: -6;
+  top: 100px;
+  left: 100px;
+}
+
+.box07 {
+  /* 追加 */
+  z-index: -7;
+  top: 120px;
+  left: 120px;
+}
+
+.box08 {
+  /* 追加 */
+  z-index: -8;
+  top: 140px;
+  left: 140px;
+}
+
+.box09 {
+  /* 追加 */
+  z-index: -9;
+  top: 160px;
+  left: 160px;
+}
+
+.box10 {
+  /* 追加 */
+  z-index: -10;
+  top: 180px;
+  left: 180px;
+}
